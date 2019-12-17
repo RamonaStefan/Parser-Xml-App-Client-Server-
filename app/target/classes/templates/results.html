@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<div>
+    <head>
+        <meta charset="UTF-8">
+        <title>Welcome back! </title>
+    </head>
+    <body style="background-color: darkcyan;">
+    <center>
+        <div style="display:inline;">
+            <span style='font-size:100px; color: #e6ccff;'>&#9640;</span>
+            <span style='font-size:100px;'>&#9640;</span>
+            <span style='font-size:100px; color: #e6ccff;'>&#9640;</span>
+            <span style='font-size:100px;'>&#9640;</span>
+            <span style='font-size:100px; color: #e6ccff;'>&#9640;</span>
+            <span style='font-size:100px;'>&#9640;</span>
+            <span style='font-size:100px; color: #e6ccff;'>&#9640;</span>
+        </div>
+        <br><br><br><br><br>
+        <h1>
+            Your results:
+        </h1>
+        <table style="width: 80%; text-align: center; margin-top: 120px;  border: 2px solid black; border-collapse: collapse; background-color: #e6ccff;">
+            <tr>
+                <th style = "border: 2px solid black"><b>Nume</b></th>
+                <th style = "border: 2px solid black"><b>Prenume</b></th>
+                <th style = "border: 2px solid black"><b>Salariu</b></th>
+                <th style = "border: 2px solid black"><b>Email</b></th>
+                <th style = "border: 2px solid black"><b>Telefon</b></th>
+                <th style = "border: 2px solid black"><b>Ore lucrate</b></th>
+                <th style = "border: 2px solid black"><b>Data angajare</b></th>
+                <th style = "border: 2px solid black"><b>Echipa</b></th>
+            </tr>
+            <tr th:each="item : ${results}">
+                <td style = "border: 2px solid black" th:text="${item.getNume().toUpperCase()}"></td>
+                <td style = "border: 2px solid black" th:text="${item.getPrenume().toUpperCase()}"></td>
+                <td style = "border: 2px solid black" th:text="${item.getSalariu()}"></td>
+                <td style = "border: 2px solid black" th:text="${item.getEmail()}"></td>
+                <td style = "border: 2px solid black" th:text="${item.getTelefon()}"></td>
+                <td style = "border: 2px solid black" th:text="${item.getOreLucrate()}"></td>
+                <td style = "border: 2px solid black" th:text="${item.getDataAngajare()}"></td>
+                <td style = "border: 2px solid black" th:text="${item.getEchipa().getNumeEchipa().toUpperCase()}"></td>
+            </tr>
+        </table>
+        <button style="padding: 10px;margin: 10px" name="back"  value="back" type="button" onClick="window.location='home.html';" formaction="/welcome">BACK</button>
+    </center>
+    </body>
+</div>
+</html>

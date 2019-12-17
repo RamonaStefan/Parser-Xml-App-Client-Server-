@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<div>
+    <head>
+        <meta charset="UTF-8">
+        <title>Welcome back! </title>
+    </head>
+    <body style="background-color: darkcyan;">
+    <center>
+        <div style="display:inline;">
+            <span style='font-size:100px; color: #e6ccff;'>&#9640;</span>
+            <span style='font-size:100px;'>&#9640;</span>
+            <span style='font-size:100px; color: #e6ccff;'>&#9640;</span>
+            <span style='font-size:100px;'>&#9640;</span>
+            <span style='font-size:100px; color: #e6ccff;'>&#9640;</span>
+            <span style='font-size:100px;'>&#9640;</span>
+            <span style='font-size:100px; color: #e6ccff;'>&#9640;</span>
+        </div>
+        <h1>
+            Find what you're looking for:
+        </h1>
+        <form method="post" action="results">
+            <br>
+            <h2>
+                See information about employees:
+            </h2>
+            <select name="Angajat" size="1">
+                <option value = "default"> Select an employer...</option>
+                <option th:text="${item}" th:each="item : ${angajat}"></option>
+            </select>
+            <br><br>
+            <h2>
+                See information about employees from team:
+            </h2>
+            <select name="Echipa" size="1">
+                <option value = "default"> Select a team...</option>
+                <option th:text="${item}" th:each="item : ${echipa}"></option>
+            </select>
+            <br><br>
+            <h2>
+                See information about employees who work at project:
+            </h2>
+            <select name="Proiect" size="1">
+                <option value = "default"> Select a project...</option>
+                <option th:text="${item}" th:each="item : ${proiect}"></option>
+            </select>
+            <br><br>
+            <h2>
+                See information about employees who work:
+            </h2>
+            <select name="Program" size="1">
+                <option value = "default"> Select a schedule...</option>
+                <option name="fulltime" value="fulltime" > Full-time</option>
+                <option name="parttime" value="parttime" >Part-time</option>
+            </select>
+            <br><br>
+            <h2>
+                See information about employees who have salary:
+            </h2>
+            <select name="Salariu" size="1">
+                <option value = "default"> Select a salary...</option>
+                <option name="2000" value="2000" > 2000-3000 lei</option>
+                <option name="3000" value="3000" > 3000-4000 lei</option>
+                <option name="4000" value="4000" > 4000-5000 lei</option>
+                <option name="5000" value="5000" > >5000 lei</option>
+            </select>
+            <br><br>
+            <h2>
+                See information about employees who have free days:
+            </h2>
+            <select name="Concediu" size="1">
+                <option value = "default"> Select a number of free days...</option>
+                <option name="20" value="20" >20</option>
+                <option name="23" value="23" >23</option>
+                <option name="25" value="25" >25</option>
+            </select>
+            <br><br>
+            <h2>
+                See information about employees who are:
+            </h2>
+            <input type="checkbox" name="sefEchipa" value="sefEchipa" >Team leader<br>
+            <input type="checkbox" name="senior" value="senior" >Senior<br>
+            <input type="checkbox" name="junior" value="junior" >Junior<br>
+            <input style="padding: 10px;margin: 10px" type="submit">
+        </form>
+        <button style="padding: 10px;margin: 10px" name="reset" value = "reset" type="button" onclick="window.location='home.html';" formaction="/welcome">Reset filters</button>
+        </center>
+    </body>
+</div>
+</html>

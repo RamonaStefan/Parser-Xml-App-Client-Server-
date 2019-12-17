@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="435960cc-f9f9-4ea4-a4f5-72d7d9111c4e" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1URCRNYY9q19Vk0SU43hH6XXJjg" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../EXTRA/initjavadevcamp/AdvertisingCampaignManagement" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\FACULTATE\SBC\ParserApplication\app\src\main\resources\static\css" />
+      <recent name="E:\FACULTATE\SBC\ParserApplication\app\src\main\java\parser\xml\application" />
+      <recent name="E:\FACULTATE\SBC\ParserApplication\app\src\main\resources" />
+      <recent name="E:\FACULTATE\SBC\ParserApplication\app\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="parser.xml.application" />
+      <recent name="parser.xml.application.http" />
+      <recent name="parser.xml.application.controller" />
+      <recent name="parser.xml.application.config" />
+      <recent name="parser.xml.application.ui" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\FACULTATE\SBC\ParserApplication\client\src\main" />
+      <recent name="E:\FACULTATE\SBC\ParserApplication\app\src\main\java\parser\xml\application\ui" />
+      <recent name="E:\FACULTATE\SBC\ParserApplication\app\src\main\java\parser\xml\application\service" />
+      <recent name="E:\FACULTATE\SBC\ParserApplication\app\src\main\java\parser\xml\application\model" />
+      <recent name="E:\FACULTATE\SBC\ParserApplication\app" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="WebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="parser.xml.application.WebApplication" />
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="parser.xml.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WebApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="435960cc-f9f9-4ea4-a4f5-72d7d9111c4e" name="Default Changelist" comment="" />
+      <created>1575310012084</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575310012084</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/parser/xml/application/WebApplication.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/parser/xml/application/service/FormServlet.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/parser/xml/application/model/FunctionalClass.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/parser/xml/application/model/FunctionalClass.java</url>
+          <line>195</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/parser/xml/application/model/FunctionalClass.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/parser/xml/application/model/FunctionalClass.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/parser/xml/application/controller/Controllers.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/parser/xml/application/controller/Controllers.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((Request)((RequestFacade)request).request).sslAttributesParsed" custom="org.apache.catalina.connector.Request,org.apache.catalina.connector.RequestFacade" />
+        <watch expression="nNode_if" />
+        <watch expression="((Proiect)((ArrayList)((Sistem)((Controllers)this).sistem).Proiecte).get(0)).contribuitori" custom="parser.xml.application.controller.Controllers,parser.xml.application.model.Proiect,java.util.ArrayList,parser.xml.application.model.Sistem" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ParserApplication$WebApplication.ic" NAME="WebApplication Coverage Results" MODIFIED="1575830252689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>parser.xml.application.*</FILTER>
+    </SUITE>
+  </component>
+</project>
