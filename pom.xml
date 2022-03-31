@@ -30,7 +30,7 @@
         <slf4j.version>1.7.28</slf4j.version>
         <swing.version>1.6.1</swing.version>
         <jettyVersion>9.3.11.v20160721</jettyVersion>
-        <spring.version>2.1.5.RELEASE</spring.version>
+        <spring.version>2.5.12</spring.version>
         <thymeleaf.version>3.0.7.RELEASE</thymeleaf.version>
         <spring.thymeleaf.version>1.5.6.RELEASE</spring.thymeleaf.version>
     </properties>
